@@ -1,0 +1,114 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 18px;
+	font-family: Tahoma;
+	line-height: 30px;
+	letter-spacing: 2px;
+	background-color: 	#C3FBCC;
+}
+.banner{
+	background-color: #a0e5b8;
+	height: 100px;
+	text-align: center;
+	padding: 20px;
+	vertical-align: middle
+}
+.banner h1 {
+    margin: 10px;
+}
+.logo img{
+	width: 150px;
+	height: auto;
+	float: left;
+}
+.menu {
+	background-color: #000;
+}
+.menu ul {
+    margin: 0px 30px;
+}
+.menu li{
+	display: inline-block;
+	
+}
+
+.menu li a{
+	text-decoration: none;
+	padding: 20px;
+	color: #fff;
+	display: block;	
+}
+
+.menu li a:hover{
+	color: #000;
+	background-color: #A1F4C8;
+}
+.menu ul li input {
+    padding: 10px;
+    width: 200px;
+    border-radius: 15px;
+}
+.menu li:last-child {
+    float: right;
+    margin: 14px;
+}
+
+/*verticale menu Start*/
+
+.vmenu ul li{
+	display: block;
+
+}
+
+.vmenu li a{
+	text-decoration: none;
+	padding: 20px;
+	color: #000;
+	display: block;	
+}
+.vmenu li a:hover{
+	color: #fff;
+	background-color: #A1DCF4;
+}
+
+/*verticale menu End*/
+.left{
+	width: 69%;
+	float: right;
+	margin-left: .5%;
+	margin-right: .5%;
+}
+.right{
+	width: 29.5%;
+	float: left;
+	margin-right: .5%;
+
+
+}
+.card{
+	margin-top: 10px;
+	padding: 20px;
+	background-color: #A7F672;
+	text-align: justify;
+}
+.cardImage{
+	margin: 10px 0px;
+	width: 100%;
+}
+.card img{
+	width: 100%;
+	height: auto;
+
+}
+.footer{
+	clear: both;
+	padding: 20px;
+	background-color: #000;
+	color: #fff; 
+	text-align: center;
+	font-size: 24px;
+
+}
